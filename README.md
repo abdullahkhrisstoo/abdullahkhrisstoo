@@ -74,11 +74,11 @@ I’m **Abdullah Khrais**, a **.NET Backend Developer** focused on reliable APIs
 
 ## 📊 Stats & Visuals
 <p align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&count_private=true&hide_title=true" />
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_title=true" />
+  <img height="155" src="https://github-readme-stats.vercel.app/api?username=abdullahkhrisstoo&show_icons=true&count_private=true&hide_title=true" />
+  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullahkhrisstoo&layout=compact&hide_title=true" />
 </p>
 <p align="center">
-  <img height="155" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&hide_longest_streak=true" />
+  <img height="155" src="https://streak-stats.demolab.com?user=abdullahkhrisstoo&hide_longest_streak=true" />
 </p>
 
 ---
@@ -86,7 +86,7 @@ I’m **Abdullah Khrais**, a **.NET Backend Developer** focused on reliable APIs
 ## 🧩 Contribution Snake (animated)
 <!-- After you set up the workflow in step 2 below, this image will render automatically -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake.svg" alt="Snake animation showing contribution graph" />
+  <img src="https://raw.githubusercontent.com/abdullahkhrisstoo/abdullahkhrisstoo/output/snake.svg" alt="Snake animation showing contribution graph" />
 </p>
 
 ---
