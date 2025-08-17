@@ -2,25 +2,35 @@ name: Generate contribution snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily at 00:00 UTC
-  workflow_dispatch:       # allow manual run
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  workflow_dispatch:
   push:
-    branches: ["main"]     # run when README changes
+    branches: ["main"]
+
+# IMPORTANT: grant write permissions to push the output branch
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout (shallow is fine)
+        uses: actions/checkout@v4
+
       - name: Generate snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: abdullahkhrisstoo
+          github_user_name: abdullahkhrisstoo   # <-- your username
           outputs: dist/snake.svg
 
-      - name: Push to output branch
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          # optional niceties:
+          commit_message: "chore(snake): update"
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
