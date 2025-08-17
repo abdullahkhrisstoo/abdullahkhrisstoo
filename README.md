@@ -73,12 +73,21 @@ I’m **Abdullah Khrais**, a **.NET Backend Developer** focused on reliable APIs
 ---
 
 ## 📊 Stats & Visuals
+<!-- GitHub Readme Stats (main card) -->
 <p align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=abdullahkhrisstoo&show_icons=true&count_private=true&hide_title=true" />
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullahkhrisstoo&layout=compact&hide_title=true" />
+  <img height="155"
+       src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_title=true&v=1&cache_seconds=7200"
+       alt="GitHub stats" />
+  <img height="155"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_title=true&v=1&cache_seconds=7200"
+       alt="Top languages" />
 </p>
+
+<!-- Streak stats -->
 <p align="center">
-  <img height="155" src="https://streak-stats.demolab.com?user=abdullahkhrisstoo&hide_longest_streak=true" />
+  <img height="155"
+       src="https://streak-stats.demolab.com?user=USERNAME&hide_longest_streak=true&v=1"
+       alt="GitHub streak" />
 </p>
 
 ---
